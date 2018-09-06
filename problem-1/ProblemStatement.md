@@ -1,4 +1,4 @@
-Start with 2 integers L and R. Their values are initially set to L = 0 and R = 1.
+```Start with 2 integers L and R. Their values are initially set to L = 0 and R = 1.
 
 You can change their values by performing following commands
 Command 'L' will change the value of L to 2*L-R
@@ -23,4 +23,4 @@ shortest sequence of commands required in order to set L = N or R = N. Each
 character in the string is either 'L' or 'R' and corresponds the command.
 If there is more than 1 correct answer, solution function can return any
 one of those values. The function should return string 'impossible' if the
-conditions L = N or R = N can not be met.
+conditions L = N or R = N can not be met.```
