@@ -1,5 +1,5 @@
 test: 	vet fmt
-	go test -v ./...
+	./test.sh
 
 vet:
 	go list ./... | xargs go vet
