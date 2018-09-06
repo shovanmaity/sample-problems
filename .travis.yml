@@ -3,13 +3,5 @@ language: go
 go:
   - 1.10.3
 
-addons:
-  apt:
-    update: true
-
-install:
-  #- make bootstrap
-  - make
-
 script:
-  - make test
+  - make
